@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <!--============ Primary Meta Tags ============-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#F0F8FF" />
+    <meta name="keywords"
+        content="frontend, backend, animation, css, development web, desenvolvimento web, ux, ui, uxui" />
+    <meta name="author" content="Nasser Yousef Ali" />
+    <meta name="title" content="PlayPIX">
+    <meta name="description" content="PlayPIX">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--============ Title ============-->
+    <title>PlayPIX</title>
+
+    <!--============ CSS ============-->
+    <link rel="icon" type="image/png" href="svg/favicon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <!--========== Open Graph / Facebook ===========-->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://playpix.com.br/">
+    <meta property="og:title" content="PlayPIX">
+    <meta property="og:description" content="PlayPIX">
+    <meta property="og:image" content="svg/metatag-playpix.png">
+
+    <!--=========== Twitter ===============-->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://nasseryousef.com.br/">
+    <meta property="twitter:title" content="PlayPIX">
+    <meta property="twitter:description" content="PlayPIX">
+    <meta property="twitter:image" content="svg/metatag-playpix.png">
+
+    <!--============ JS ============-->
+    <script src="/js/svg-inject.min.js"></script>
+    <script>
+        window.intercomSettings = {
+          api_base: "https://api-iam.intercom.io",
+          app_id: "bdolpdol",
+        };
+    </script>
+
+    <script>
+    // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/bdolpdol'
+    (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/bdolpdol';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+    </script>
+
+
+</head>
+
+<body>
+
+    <!--=====================================================================-->
+    <!--=========== SCREEN LOADING ============-->
+    <!--=====================================================================-->
+
+    <div class="screen-loading">
+        <img src="svg/logo-playpix-extended.svg" class="icon-xl" alt="" onload="SVGInject(this)" />
+    </div>
+
+    <!--=====================================================================-->
+    <!--=========== HEADER ============-->
+    <!--=====================================================================-->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#home">
+                    <img src="svg/logo-playpix.svg" class="icon" alt="" onload="SVGInject(this)" />
+                </a>
+            </div>
+            <div class="mr-2">
+                <a href="https://partners.playpix.com/login" class="link mr-1">Entrar</a>
+                <a href="https://partners.playpix.com/register" class="btn">Criar conta</a>
+            </div>
+        </nav>
+
+    </header>
+
+    <!--=====================================================================-->
+    <!--=========== HERO ============-->
+    <!--=====================================================================-->
+
+    <!--=====================================================================-->
+    <!--=========== CONTAINER DESKTOP ============-->
+    <!--=====================================================================-->
+    <section class="container hero desktop container-hero-desktop relative" id="home">
+
+        <!--
+        <img src="svg/bg-hero.svg" class="bg-hero" alt="" onload="SVGInject(this)" />
+        -->
+        <img src="svg/line-hero.svg" class="line-hero" alt="" onload="SVGInject(this)" />
+
+        <div class="row flex-center">
+            <div class="grid-1 disappear"></div>
+            <div class="grid-5">
+                <div>
+                    <p class="label p5">Junte-se a +20.000 afiliados</p>
+                </div>
+                <div>
+                    <h2 class="mt-1">Seja um parceiro oficial da <span class="color-gradient">PlayPix</span> </h2>
+                </div>
+                <div>
+                    <p class="mt-1">
+                        Aqui você é sócio majoritário. Junte-se a mais de 5.000
+                        afiliados e desfrute da maior comissão do mercado.
+                    </p>
+                </div>
+
+                <div class="flex-start-row mt-3">
+                    <div>
+                        <a href="https://partners.playpix.com/register" class="btn">Inscreva&hyphen;se</a>
+                    </div>
+
+                    <div class="ml-2">
+                        <p class="p4 flex-start-row">
+                            <span class="color-gradient">[</span>
+                            &nbsp;Comissões&nbsp;de&nbsp;até&nbsp;80%&nbsp;🤑
+                            <span class="color-gradient">]</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-5">
+                <img src="svg/fig1-playpix.svg" style="max-width: 420px;" alt="" onload="SVGInject(this)" />
+            </div>
+            <div class="grid-1 disappear"></div>
+        </div>
+    </section>
+
+    <!--=====================================================================-->
+    <!--=========== CONTAINER MOBILE ============-->
+    <!--=====================================================================-->
+    <section class="container hero mobile hidden">
+        <div class="row">
+            <div class="grid-1"></div>
+
+            <div class="grid-5">
+                <div>
+                    <p class="label p5">Junte-se a +20.000 afiliados</p>
+                </div>
+                <div>
+                    <h2 class="mt-1">Seja um parceiro oficial da <span class="color-gradient">PlayPix</span> </h2>
+                </div>
+                <div>
+                    <p class="mt-1">
+                        Aqui você é sócio majoritário. Junte-se a mais de 5.000
+                        afiliados e desfrute da maior comissão do mercado.
+                    </p>
+                </div>
+
+                <div class="mt-3">
+                    <a href="https://partners.playpix.com/register" class="btn">Inscreva&hyphen;se</a>
+                    <p class="p4 flex-start-row mt-2">
+                        <span class="color-gradient">[</span>
+                        &nbsp;Comissões&nbsp;de&nbsp;até&nbsp;80%&nbsp;🤑
+                        <span class="color-gradient">]</span>
+                    </p>
+                    <!--
+                    <div class="row">
+                        <div class="grid-6">
+                            <a href="https://partners.playpix.com/register" class="btn">Inscreva&hyphen;se</a>
+                        </div>
+                        <div class="grid-6">
+                            <p class="p4 flex-start-row">
+                                <span class="color-gradient">[</span>
+                                &nbsp;Comissões&nbsp;de&nbsp;até&nbsp;80%&nbsp;🤑
+                                <span class="color-gradient">]</span>
+                            </p>
+                        </div>
+                    </div>
+                    -->
+                </div>
+            </div>
+            <div class="grid-5">
+                <img src="svg/fig1-playpix.svg" alt="" onload="SVGInject(this)" />
+            </div>
+
+            <div class="grid-1 disappear"></div>
+        </div>
+    </section>
+
+    <!--=====================================================================-->
+    <!--=========== 01 MODELOS DE COMISSIONAMENTOS ============-->
+    <!--=====================================================================-->
+    <section class="container" id="section-01">
+        <div class="row">
+            <div class="grid-4 relative desktop" style="min-height: 520px;">
+                <h4 class="emoji">🤝</h4>
+                <h3 class="mt-1" style="word-break: break-word;">Modelo de comissionamento</h3>
+                <p class="mt-2">
+                    A PlayPix oferece aos seus parceiros 1 modelo de
+                    comissionamento :
+                </p>
+                <img src="svg/fig4-playpix.svg" style="position: absolute; bottom: 0; left: 0;" alt=""
+                    onload="SVGInject(this)" />
+            </div>
+
+            <div class="grid-4 mobile">
+                <h4 class="emoji">🤝</h4>
+                <h3 class="mt-1" style="word-break: break-word;">Modelo de comissionamento</h3>
+                <p class="mt-2">
+                    A PlayPix oferece aos seus parceiros 1 modelo de
+                    comissionamento :
+                </p>
+                <img src="svg/fig4-playpix.svg" class="mt-3" alt="" onload="SVGInject(this)" />
+            </div>
+            <div class="grid-4 my-3" style="perspective: 800px; min-height: 480px;">
+                <div class="card-1 relative">
+                    <div class="flex-center flex-column card-stroke card-front-1">
+                        <p class="text-center mt-1 p5 color-white card-text-1">
+                            Oferecemos as melhores ofertas para nossos parceiros
+                            e é do nosso interesse atender às suas necessidades
+                            ao máximo.
+                            <br /><br />
+                            Sua comissão será baseada no lucro que a PlayPix
+                            obtiver a partir dos clientes cadastrados pelo seu
+                            link de afiliado.
+                            <br /><br />
+                            Ao optar pelo modelo de Revenue Share, você recebe
+                            80% dos lucros gerados pelos seus clientes. Isso
+                            mesmo, 80%. Imagine-se como um sócio majoritário
+                            de um site de apostas e cassino.
+                        </p>
+                        <div class="flex-start-row mt-5">
+                            <a href="https://partners.playpix.com/register" class="btn-white">Cadastre&hyphen;se</a>
+                            <a href="#" class="link link-less-1">Ver&nbsp;menos</a>
+                        </div>
+                    </div>
+
+                    <div class="flex-center flex-column card-stroke card-verse-1">
+                        <img src="svg/fig2-playpix.svg" alt="" onload="SVGInject(this)" />
+                        <h6 class="text-center label p5">80% dos lucros</h6>
+                        <h4 class="text-center mt-2">Revenue Share</h4>
+                        <p class="text-center mt-1">
+                            Ao optar pelo modelo Revenue Share, você recebe 80% dos
+                            lucros gerados pelos seus clientes.
+                        </p>
+                        <div class="flex-start-row mt-4">
+                            <a href="https://partners.playpix.com/register"
+                                class="btn btn-register-1">Cadastre&hyphen;se</a>
+                            <a href="#" class="link link-more-1">Ver&nbsp;mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-4 my-3" style="perspective: 800px; min-height: 480px; display: none">
+                <div class="card-2 relative">
+                    <div class="flex-center flex-column card-stroke card-front-2">
+                        <p class="text-center mt-1 p5 color-white card-text-2">
+                            O Modelo Híbrido é uma combinação de CPA e Revenue
+                            Share. Ao optar por este modelo, você recebe um
+                            pagamento fixo de R$90,00 por CPA, ou seja para
+                            cada cliente efetivado. Toda vez que um cliente
+                            realizar o seu primeiro depósito na plataforma.
+                            <br /><br />
+                            Além dos R$90,00 a cada novo cliente efetivado,
+                            você recebe 20% de Revenue Share.
+                            <br /><br />
+                            E para garantir que o plano seja saudável e
+                            sustentável para todos os envolvidos, implementamos
+                            um giro de R$72,00*.
+                        </p>
+                        <div class="flex-start-row mt-4">
+                            <a href="https://partners.playpix.com/register" class="btn-white">Cadastre&hyphen;se</a>
+                            <a href="#" class="link link-less-2">Ver&nbsp;menos</a>
+                        </div>
+                    </div>
+
+                    <div class="flex-center flex-column card-stroke card-verse-2">
+                        <img src="svg/fig3-playpix.svg" alt="" onload="SVGInject(this)" />
+                        <h6 class="text-center label p5">R$90 + 20% dos lucros</h6>
+                        <h4 class="text-center mt-2">Híbrido</h4>
+                        <p class="text-center mt-1">
+                            Você recebe um pagamento fixo de R$90 por cada cliente
+                            efetivado além de 20% do Revenue Share.
+                        </p>
+                        <div class="flex-start-row mt-4">
+                            <a href="https://partners.playpix.com/register"
+                                class="btn btn-register-2">Cadastre&hyphen;se</a>
+                            <a href="#more" class="link link-more-2">Ver&nbsp;mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--
+            <div class="grid-4 flex-center flex-column card-stroke my-3">
+                <img src="svg/fig3-playpix.svg" alt="" onload="SVGInject(this)" />
+                <h6 class="text-center label p5">R$90 + 20% dos lucros</h6>
+                <h4 class="text-center mt-2">Híbrido</h4>
+                <p class="text-center mt-1">
+                    Você recebe um pagamento fixo de R$50 por cada cliente 
+                    efetivado além de 40% do Revenue Share.
+                </p>
+                <div class="flex-start-row mt-4">
+                    <a href="#" class="btn">Cadastre&hyphen;se</a>
+                    <a href="#" class="link link-card-2">Ver mais</a>
+                </div>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <!--=====================================================================-->
+    <!--=========== 02 FITA  ============-->
+    <!--=====================================================================-->
+    <section class="container hidden" id="section-02">
+        <div class="flex-center fita">
+
+            <div class="flex-start-row align-items-center mx-3">
+                <h4 class="color-secondary">[</h4>
+                <img src="svg/icon-house.svg" class="icon ml-1" style="min-width: 28px;" alt=""
+                    onload="SVGInject(this)" />
+                <h6 class="mx-1">Sala&nbsp;de&nbsp;Sinais</h6>
+                <h4 class="color-secondary">]</h4>
+            </div>
+
+            <div class="flex-start-row align-items-center mx-3">
+                <h4 class="color-secondary">[</h4>
+                <img src="svg/icon-sac.svg" class="icon ml-1" style="min-width: 28px;" alt=""
+                    onload="SVGInject(this)" />
+                <h6 class="mx-1">Suporte</h6>
+                <h4 class="color-secondary">]</h4>
+            </div>
+
+            <div class="flex-start-row align-items-center mx-3">
+                <h4 class="color-secondary">[</h4>
+                <img src="svg/icon-file.svg" class="icon ml-1" style="min-width: 28px;" alt=""
+                    onload="SVGInject(this)" />
+                <h6 class="mx-1">Materiais&nbsp;de&nbsp;Marketing</h6>
+                <h4 class="color-secondary">]</h4>
+            </div>
+
+            <div class="flex-start-row align-items-center mx-3">
+                <h4 class="color-secondary">[</h4>
+                <img src="svg/icon-wallet.svg" class="icon ml-1" style="min-width: 28px;" alt=""
+                    onload="SVGInject(this)" />
+                <h6 class="mx-1">Saques&nbsp;Semanais</h6>
+                <h4 class="color-secondary">]</h4>
+            </div>
+
+            <div class="flex-start-row align-items-center mx-3">
+                <h4 class="color-secondary">[</h4>
+                <img src="svg/icon-house.svg" class="icon ml-1" style="min-width: 28px;" alt=""
+                    onload="SVGInject(this)" />
+                <h6 class="mx-1">Sala&nbsp;de&nbsp;Sinais</h6>
+                <h4 class="color-secondary">]</h4>
+            </div>
+
+            <div class="flex-start-row align-items-center mx-3">
+                <h4 class="color-secondary">[</h4>
+                <img src="svg/icon-sac.svg" class="icon ml-1" style="min-width: 28px;" alt=""
+                    onload="SVGInject(this)" />
+                <h6 class="mx-1">Suporte</h6>
+                <h4 class="color-secondary">]</h4>
+            </div>
+
+            <div class="flex-start-row align-items-center mx-3">
+                <h4 class="color-secondary">[</h4>
+                <img src="svg/icon-file.svg" class="icon ml-1" style="min-width: 28px;" alt=""
+                    onload="SVGInject(this)" />
+                <h6 class="mx-1">Materiais&nbsp;de&nbsp;Marketing</h6>
+                <h4 class="color-secondary">]</h4>
+            </div>
+
+            <div class="flex-start-row align-items-center mx-3">
+                <h4 class="color-secondary">[</h4>
+                <img src="svg/icon-wallet.svg" class="icon ml-1" style="min-width: 28px;" alt=""
+                    onload="SVGInject(this)" />
+                <h6 class="mx-1">Saques&nbsp;Semanais</h6>
+                <h4 class="color-secondary">]</h4>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+    <!--=====================================================================-->
+    <!--=========== 03 SUB-AFILIADOS  ============-->
+    <!--=====================================================================-->
+    <div class="bg-black-dark section-afiliates" id="section-03" style="z-index: -1;">
+        <section class="container">
+            <div class="row">
+                <div class="grid-5">
+                    <h3 class="color-white">Sub Afiliados</h3>
+                    <p class="mt-2">
+                        Você também pode convidar amigos para ser um parceiro
+                        PlayPIX, nosso programa de indicações <b class="color-white">paga 10%</b> de
+                        comissão vitalícia sobre a comissão do afiliado
+                        indicado, sem afetar absolutamente nada a comissão de seu afiliado.
+                    </p>
+                    <div class="my-3">
+                        <div class="flex-start-row">
+                            <img src="svg/icon-check.svg" class="icon-xs" alt="" onload="SVGInject(this)" />
+                            <p class="ml-1 color-white">10% de comissão vitalícia</p>
+                        </div>
+                        <div class="flex-start-row">
+                            <img src="svg/icon-check.svg" class="icon-xs" alt="" onload="SVGInject(this)" />
+                            <p class="ml-1 color-white">Indicações ilimitadas</p>
+                        </div>
+                        <div class="flex-start-row">
+                            <img src="svg/icon-check.svg" class="icon-xs" alt="" onload="SVGInject(this)" />
+                            <p class="ml-1 color-white">Saques Semanais</p>
+                        </div>
+                        <div class="flex-start-row">
+                            <img src="svg/icon-check.svg" class="icon-xs" alt="" onload="SVGInject(this)" />
+                            <p class="ml-1 color-white">Pagamento em conta corrente ou criptomoedas</p>
+                        </div>
+
+                    </div>
+                    <div class="flex-start-row">
+                        <a href="https://partners.playpix.com/register" class="btn">Cadastre-se</a>
+                    </div>
+
+                </div>
+                <div class="grid-7 relative">
+                    <img src="svg/fig5.1-playpix.svg" class="fig5-playpix desktop" alt="" onload="SVGInject(this)" />
+                    <img src="svg/fig5-playpix.svg" class="fig5-playpix mobile" alt="" onload="SVGInject(this)" />
+                    <div class="mobile" style="height: 200px;"></div>
+                    <div class="desktop" style="height: 100px;"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="grid-1"></div>
+                <div class="grid-10">
+                    <!--
+                    <video autoplay muted controls style="width: 100%; border-radius: 12px; border: 2px solid #33BEFF; padding: 16px">
+                        <source src="video/video-playpix.mp4" style="border-radius: 8px" type="video/mp4">
+                    </video>
+                    -->
+                    <div style="padding:56.25% 0 0 0;position:relative; ">
+                        <iframe
+                            src="https://player.vimeo.com/video/841977780?h=b5b6da6e46&autoplay=1&loop=1&title=0&byline=0&portrait=0"
+                            style="position:absolute;top:0;left:0;width:100%;height:100%; width: 100%; border-radius: 12px; border: 2px solid #33BEFF; padding: 16px"
+                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
+                </div>
+                <div class="grid-1"></div>
+            </div>
+        </section>
+    </div>
+
+    <!--=====================================================================-->
+    <!--=========== 04 FITAS ============-->
+    <!--=====================================================================-->
+    <section class="container">
+        <div class="row desktop">
+            <div class="grid-2">
+                <img src="svg/lines-squares.svg" alt="" onload="SVGInject(this)" />
+            </div>
+            <div class="grid-8 py-0" style="border: 2px solid #33BEFF; border-radius: 16px;">
+                <div class="row">
+                    <div class="grid-12 py-0">
+                        <h6 class="text-center px-2 py-1">
+                            Com a intenção de potencializar seu capital de giro,
+                            efetuamos saques semanais por meio de PIX ou
+                            Criptomoedas todas as segundas-feiras, destinados
+                            a valores superiores a R$50,00.
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-2">
+                <img src="svg/lines-squares.svg" alt="" onload="SVGInject(this)" />
+            </div>
+        </div>
+
+        <div class="row mobile relative hidden">
+            <div class="grid-nobreak-1"></div>
+            <div class="grid-nobreak-10 py-0" style="border: 2px solid #33BEFF; border-radius: 16px;">
+                <div class="row">
+                    <div class="grid-12 py-0">
+                        <h6 class="text-center px-2 py-1">
+                            Com a intenção de potencializar seu capital de giro,
+                            efetuamos saques semanais por meio de PIX ou
+                            Criptomoedas todas as segundas-feiras, destinados
+                            a valores superiores a R$50,00.
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+            <img src="svg/lines-squares.svg" style="transform: rotate(90deg); position: absolute; 
+            top: 50%; left: -50%;" alt="" onload="SVGInject(this)" />
+
+            <img src="svg/lines-squares.svg" style="transform: rotate(-90deg); position: absolute; 
+            top: 50%; right: -50%;" alt="" onload="SVGInject(this)" />
+        </div>
+    </section>
+
+    <!--=====================================================================-->
+    <!--=========== 04 80% ============-->
+    <!--=====================================================================-->
+    <section class="container py-0" id="section-04" style="transform: translate3d(0,100px,0);">
+        <div class="row desktop">
+            <div class="grid-8 py-0 relative">
+                <h4 class="icon-fire emoji">🔥</h4>
+                <img src="svg/fig6-playpix.svg" alt="" onload="SVGInject(this)" />
+            </div>
+            <div class="grid-4">
+                <h2 class="emoji">💰</h2>
+                <h3 class="mt-1">Conquiste a maior comissão do mercado</h3>
+                <p class="mt-1">
+                    Ao se juntar a nós, você terá a oportunidade de se tornar
+                    um sócio majoritário com uma participação significativa
+                    dos lucros, dos quais 80% são seus. Enquanto seus clientes
+                    se beneficiam das suas dicas lucrativas, você ganha junto deles.
+                </p>
+            </div>
+        </div>
+
+        <div class="row mobile">
+            <div class="grid-4">
+                <h2 class="emoji">💰</h2>
+                <h3 class="mt-1">Conquiste a maior comissão do mercado</h3>
+                <p class="mt-1">
+                    Ao se juntar a nós, você terá a oportunidade de se
+                    tornar um sócio majoritário com uma participação
+                    significativa dos lucros, dos quais 80% são seus.
+                    Enquanto seus clientes se beneficiam das suas
+                    dicas lucrativas, você ganha junto deles.
+                </p>
+            </div>
+            <div class="grid-8 py-0 relative">
+                <h4 class="icon-fire emoji">🔥</h4>
+                <img src="svg/fig6-playpix.svg" alt="" onload="SVGInject(this)" />
+            </div>
+
+        </div>
+    </section>
+
+    <!--=====================================================================-->
+    <!--=========== 05 APP ============-->
+    <!--=====================================================================-->
+    <section class="container" id="section-05">
+        <div class="card-blue hidden px-2" style="transform: translate3d(0,220px,0); ">
+            <div class="row">
+                <div class="grid-1 disappear"></div>
+                <div class="grid-5 pt-6">
+                    <h4 class="emoji">🤩</h4>
+                    <h3 class="mt-2">Em breve o melhor app de sinais do mercado</h3>
+                    <p class="mt-3">
+                        Em breve, uma plataforma que oferece sinais confiáveis e
+                        precisos, onde você ajudará seus clientes a tomar decisões
+                        e apostarem. E melhor que isso, você vai receber 80%
+                        dos lucros gerados por eles! Com nosso app totalmente
+                        customizável, você estará um passo à frente.
+                    </p>
+                </div>
+                <div class="grid-1 disappear"></div>
+                <div class="grid-4" style="max-height: 550px;">
+                    <img src="svg/fig7-playpix.png" alt="" />
+                </div>
+                <div class="grid-1"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--=====================================================================-->
+    <!--=========== 08 DÚVIDAS FREQUENTES ============-->
+    <!--=====================================================================-->
+    <section class="container " id="section-08">
+
+        <div class="minicard-blue relative hidden py-8 pr-2"
+            style="transform: translate3d(0,-250px,0); border-radius: 32px;">
+
+            <img src="svg/bg-squares.svg" class="bg-squares" alt="" onload="SVGInject(this)" />
+
+            <div class="row" style="z-index: 400;">
+                <h4 class="text-center emoji">🤩</h4>
+                <h3 class="text-center mt-1">Dúvidas Frequentes</h3>
+            </div>
+
+            <div class="row" style="z-index: 400;">
+                <div class="grid-3 disappear"></div>
+                <div class="grid-6">
+                    <div class="accordion my-1 py-1">
+                        <button type="button" class="accordion-button">
+                            <p class="pr-2 color-black">Por que minha comissão não é igual à minha receita líquida?</p>
+                        </button>
+                        <div class="accordion-content">
+                            <p class="py-2 px-3 p4">
+                                A comissão pendente do afiliado se refere a uma
+                                porcentagem direta da receita líquida.
+                                <br /><br />
+                                Nós trabalhamos com o Valor Apostado - Valor
+                                Ganho (dos clientes) para chegar na nossa
+                                receita bruta, sendo este cálculo acumulativo
+                                até a comissão pendente virar saldo.
+                                <br /><br />
+                                Após, dessa receita bruta, é retirada uma
+                                porcentagem de 21% do custo administrativo para
+                                as provedoras dos jogos e, em seguida, possíveis
+                                bônus convertidos.
+                                <br /><br />
+                                Assim sobra a Receita Líquida, o lucro da
+                                plataforma. Desta receita, a porcentagem
+                                equivalente a seu plano de comissão (80% ou 20%)
+                                é a sua comissão pendente.
+                            </p>
+                        </div>
+
+                        <button type="button" class="accordion-button">
+                            <p class="pr-2 color-black">Por que meus cadastros de hoje ainda não contabilizaram? </p>
+                        </button>
+                        <div class="accordion-content">
+                            <p class="py-2 px-3 p4">
+                                A atualização de jogadores ocorre gradualmente
+                                durante o dia, mas seguindo o padrão de
+                                atualização da plataforma e dos horários da
+                                provedora, estrangeira, ao qual o fuso é cerca
+                                de 6 a 7 horas depois do brasileiro.
+                            </p>
+                        </div>
+
+                        <!-- <button type="button" class="accordion-button">
+                            <p class="pr-2 color-black">Quando posso trocar meu plano de comissão?</p>
+                        </button>
+                        <div class="accordion-content">
+                            <p class="py-2 px-3 p4">
+                                O plano de comissão deve ser alterado apenas
+                                quando a comissão pendente se encontra zerada
+                                (o que geralmente ocorre nos dias de saque).
+                            </p>
+                        </div> -->
+
+                        <button type="button" class="accordion-button">
+                            <p class="pr-2 color-black">Quando são atualizados os valores das minhas comissões diárias?
+                            </p>
+                        </button>
+                        <div class="accordion-content">
+                            <p class="py-2 px-3 p4">
+                                As atualizações ocorrem 1 vez por dia, mas sem
+                                horário pré-definido (usualmente pela
+                                madrugada/manhã seguinte). O fuso da provedora
+                                da plataforma, como citado, é de 6 a 7 horas
+                                acima do brasileiro e, por essa razão, o delay
+                                existente.
+                            </p>
+                        </div>
+
+                        <button type="button" class="accordion-button">
+                            <p class="pr-2 color-black">Quando vou poder sacar minha comissão?</p>
+                        </button>
+                        <div class="accordion-content">
+                            <p class="py-2 px-3 p4">
+                                Os saques são semanais, ocorrendo a cada
+                                segunda-feira, entre 09:30 e 23:59. O prazo de
+                                pagamento é de até 2 dias úteis para
+                                transferência/Pix e 1 dia útil para pagamento
+                                em criptomoeda (A moeda necessariamente precisa
+                                ser USDT, da Rede Tron - TRC20).
+                            </p>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div class="grid-3 disappear"></div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--=====================================================================-->
+    <!--=========== 09 JUNTE-SE A FAMÍLIA PIX ============-->
+    <!--=====================================================================-->
+    <div class="relative hidden" style="transform: translate3d(0,-200px,0);">
+
+        <img src="svg/bg-footer.svg" class="bg-footer" alt="" onload="SVGInject(this)" />
+
+        <section class="container cta-final flex-center relative" id="section-09">
+
+            <img src="img/icon-people1.png" class="icon icon-people1" alt="" />
+            <img src="img/icon-people2.png" class="icon icon-people2" alt="" />
+            <img src="img/icon-people3.png" class="icon icon-people3" alt="" />
+            <img src="img/icon-people4.png" class="icon icon-people4" alt="" />
+            <img src="img/icon-people5.png" class="icon icon-people5" alt="" />
+            <img src="img/icon-people6.png" class="icon icon-people6" alt="" />
+            <img src="img/icon-people7.png" class="icon icon-people7" alt="" />
+            <img src="img/icon-people8.png" class="icon icon-people8" alt="" />
+
+            <div class="row flex-center flex-column">
+                <div class="grid-2"></div>
+                <div class="grid-8 flex-center flex-column">
+                    <div>
+                        <h2 class="text-center">Junte-se a família <span class="color-gradient">PlayPix</span> </h2>
+                    </div>
+                    <div>
+                        <p class="text-center mt-1">
+                            Não perca tempo, venha conosco e nos ajude a revolucionar o
+                            mercado de entretenimento online!
+                        </p>
+                    </div>
+                    <div>
+                        <a href="https://partners.playpix.com/register" class="btn mt-4">Quero fazer parte</a>
+                    </div>
+                </div>
+                <div class="grid-2"></div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <!--=====================================================================-->
+    <!--=========== FOOTER ============-->
+    <!--=====================================================================-->
+    <div class=".bg-black-dark-footer bg-footer-final">
+        <footer class="container py-0">
+            <p class="text-center" style="transform: translate3d(0,-110px,0);"> © 2023 PlayPIX. Todos os direitos reservados
+                <br>
+                <a href="https://parceiros.playpix.com/docs/tc-25012024-parceiros.pdf" target="_blank"
+                    class="btn-termos">Termos e Condições de Uso</a>
+            </p>
+        </footer>
+
+
+    </div>
+
+    <!--=====================================================================-->
+    <!--=========== TRANSLATE SCRIPT ============-->
+    <!--=====================================================================-->
+    <div class="gtranslate_wrapper"></div>
+
+    <script>window.gtranslateSettings = { "default_language": "pt", "languages": ["pt", "es", "en"], "wrapper_selector": ".gtranslate_wrapper", "flag_style": "3d", "alt_flags": { "en": "usa", "pt": "brazil", "es": "mexico" } }</script>
+
+    <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+
+
+    <!--=========== JS ============-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+        integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"
+        integrity="sha512-v8B8T8l8JiiJRGomPd2k+bPS98RWBLGChFMJbK1hmHiDHYq0EjdQl20LyWeIs+MGRLTWBycJGEGAjKkEtd7w5Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/js/app.js"></script>
+
+    <script>
+        document.querySelectorAll('.accordion-button').forEach(button => {
+
+            button.addEventListener('click', () => {
+                //button.classList.remove('accordion-button-active');
+
+                const accordionContent = button.nextElementSibling;
+
+                button.classList.toggle('accordion-button-active');
+
+                if (button.classList.contains('accordion-button-active')) {
+                    accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+                }
+                else {
+                    accordionContent.style.maxHeight = 0;
+                }
+            });
+        })
+
+    </script>
+
+
+</body>
+
+</html>
